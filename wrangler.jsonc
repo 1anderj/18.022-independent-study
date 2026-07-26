@@ -1,9 +1,14 @@
 {
-    "name": "independent-study",
-    "compatibility_date": "2026-07-26",
-    "assets": {
-      "directory": "./_site",
-      "not_found_handling": "404.html"
-    }
-  }
-  
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "independent-study",
+  "compatibility_date": "2026-07-26",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "_site"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

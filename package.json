@@ -5,9 +5,12 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "start": "eleventy --serve --watch"
+    "start": "eleventy --serve --watch",
+    "deploy": "npm run build && wrangler deploy",
+    "preview": "npm run build && wrangler dev"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "wrangler": "^4.114.0"
   }
 }
