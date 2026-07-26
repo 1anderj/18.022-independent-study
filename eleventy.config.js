@@ -1,6 +1,6 @@
 export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("site", {
-    title: "Jude Anders",
+    title: "Jude's Independent Study",
   });
 
   eleventyConfig.addGlobalData("buildTime", () => Date.now());
