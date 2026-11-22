@@ -3,7 +3,7 @@ body {
   background-color: black;
   color: #126F9A;
   font-family: "Chivo Mono", monospace;
-  font-weight: lighter;
+  font-weight: medium;
   padding: 54px;
 }
 
@@ -72,7 +72,7 @@ h2 {
 .dropdown-links {
   display: none;
   position: absolute;
-  background-color: #444;
+  background-color: #333;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   min-width: 160px;
   z-index: 1;
@@ -105,7 +105,7 @@ h2 {
 }
 
 .right-menu:hover, .right-menu:focus {
-  background-color: #444;
+  background-color: #333;
 }
 
 .right-dropdown-links {
