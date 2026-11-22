@@ -20,6 +20,46 @@
       <a href="/" title="Home">
         <img id="logo-favicon" src="/assets/images/favicon/favicon-1024x1024.png" alt="i hat bar j hat favicon">
       </a>
+      <div class="dropdown-container">
+        <button class="menu" onclick="toggleDropdown('lists-dropdown')">Me ▼</button>
+        <div id="lists-dropdown" class="dropdown-links">
+          <a class="menu-item" href="/math-quotations/">About Me</a>
+          <a class="menu-item" href="/good-xkcd-comics/">Why Math?</a>
+          <a class="menu-item" href="/gabby/">Why Multivariable Calculus?</a>
+        </div>
+      </div>
+      <div class="dropdown-container">
+        <button class="menu" onclick="toggleDropdown('interactive-dropdown')">The Class ▼</button>
+        <div id="interactive-dropdown" class="dropdown-links">
+          <a class="menu-item" href="/wysitutwyg-editor/">The Indendent Study Format</a>
+          <a class="menu-item" href="/dozenal/">The Team</a>
+          <a class="menu-item" href="/encoder-decoder/">Using OpenCourseWare</a>
+          <a class="menu-item" href="/encoder-decoder/">My Process</a>
+        </div>
+      </div>
+      <div class="dropdown-container">
+        <button class="menu" onclick="toggleDropdown('about-dropdown')">The Math ▼</button>
+        <div id="about-dropdown" class="dropdown-links">
+          <a class="menu-item" href="/about/">Sample Work</a>
+          <a class="menu-item" href="/contact/">Videos</a>
+          <a class="menu-item" href="/contact/">More</a>
+        </div>
+      </div>
+      div class="dropdown-container">
+        <button class="menu" onclick="toggleDropdown('about-dropdown')">Reflections ▼</button>
+        <div id="about-dropdown" class="dropdown-links">
+          <a class="menu-item" href="/about/">How it Went</a>
+          <a class="menu-item" href="/contact/">What's Next</a>
+        </div>
+      </div>
+      div class="dropdown-container">
+        <button class="menu" onclick="toggleDropdown('about-dropdown')">The Website ▼</button>
+        <div id="about-dropdown" class="dropdown-links">
+          <a class="menu-item" href="/about/">About</a>
+          <a class="menu-item" href="/about/">Technical</a>
+          <a class="menu-item" href="/contact/">Contact</a>
+        </div>
+      </div>
     </div>
     {{ content }}
     <script src="/assets/scripts/dropdowns.js"></script>
