@@ -46,8 +46,8 @@ h2 {
 }
 
 .menu {
-  color: #126F9A;
-  background-color: #851124;
+  color: #851124;
+  background-color: #126F9A;
   border: none;
   padding: 6px;
   display: flex;
@@ -61,7 +61,7 @@ h2 {
 }
 
 .menu:hover, .menu:focus {
-  background-color: #630c1b;
+  background-color: #0d5373;
 }
 
 .dropdown-container {
@@ -79,14 +79,14 @@ h2 {
 }
 
 .menu-item {
-  color: #126F9A;
+  color: #851124;
   padding: 12px 16px;
   display: block;
 }
 
 .menu-item:hover {
   color: black;
-  background-color: #126F9A;
+  background-color: #851124;
 }
 
 .show {
@@ -99,8 +99,8 @@ h2 {
 
 .right-menu {
   background-color: transparent;
-  color: #126F9A;
-  border: 1px solid #126F9A;
+  color: #851124;
+  border: 1px solid #851124;
   border-radius: 12%;
 }
 
@@ -359,7 +359,7 @@ textarea {
 
 /* es */
 #go-back {
-  background-color: #400080;
+  background-color: #126F9A;
   border: none;
   border-radius: 12px;
   color: white;
@@ -371,5 +371,5 @@ textarea {
 }
 
 #go-back:hover, #go-back:focus {
-	background-color: #794ca6;
+	background-color: #0d5373;
 }
